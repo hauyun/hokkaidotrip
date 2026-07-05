@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>北海道住宿比較 1/3–1/5（5人・3臥室・可停車）</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1f2a37; --sub:#5b6b7b; --line:#e3e8ee;
+    --biei:#3f8f5b; --naka:#c99a1e; --furano:#2f6fb0; --asa:#c15b2e; --tok:#6b7280;
+    --pro:#1a7f46; --con:#c0392b; --star:#e8a13a;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.6;-webkit-text-size-adjust:100%}
+  header{background:linear-gradient(135deg,#12385f,#1f6fae);color:#fff;padding:26px 18px}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+  header h1{margin:0 0 6px;font-size:1.5rem}
+  header p{margin:2px 0;opacity:.92;font-size:.92rem}
+  .legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+  .chip{font-size:.78rem;padding:4px 10px;border-radius:999px;color:#fff;font-weight:600}
+  .c-biei{background:var(--biei)}.c-naka{background:var(--naka)}.c-furano{background:var(--furano)}
+  .c-asa{background:var(--asa)}.c-tok{background:var(--tok)}
+  main{padding:22px 0 60px}
+  .region-title{display:flex;align-items:center;gap:10px;margin:26px 0 12px;font-size:1.15rem;font-weight:700}
+  .region-title .bar{width:6px;height:22px;border-radius:3px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;
+    box-shadow:0 1px 3px rgba(20,40,70,.06);display:flex;flex-direction:column}
+  .thumbwrap{position:relative;height:180px;overflow:hidden;background:#dfe6ee}
+  .thumb{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;z-index:2}
+  .ph{position:absolute;inset:0;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+      color:#fff;background:linear-gradient(135deg,var(--rc),#0d2233)}
+  .ph-code{font-size:2.4rem;font-weight:800;line-height:1}
+  .ph-label{font-size:.78rem;opacity:.9;margin-top:6px;letter-spacing:.05em}
+  .card .top{padding:14px 16px;border-bottom:1px solid var(--line);position:relative}
+  .code{position:absolute;top:14px;right:14px;width:34px;height:34px;border-radius:9px;color:#fff;
+    font-weight:800;font-size:1.05rem;display:flex;align-items:center;justify-content:center}
+  .name{font-weight:700;font-size:1.02rem;margin:0 44px 4px 0}
+  .plat{font-size:.72rem;color:var(--sub);border:1px solid var(--line);border-radius:6px;padding:1px 6px}
+  .price{margin-top:8px;font-size:1.35rem;font-weight:800}
+  .price small{font-size:.72rem;color:var(--sub);font-weight:500}
+  .pp{font-size:.82rem;color:var(--sub)}
+  .rate{font-size:.85rem;color:var(--star);font-weight:700;margin-top:2px}
+  .body{padding:12px 16px;font-size:.86rem;flex:1}
+  .facts{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+  .fact{background:#eef3f8;border-radius:7px;padding:3px 8px;font-size:.76rem;color:#34495e}
+  .layout{white-space:pre-line;background:#fafbfc;border:1px solid var(--line);border-radius:8px;
+    padding:8px 10px;font-size:.8rem;color:#33414f;margin-bottom:10px}
+  .pc{margin:6px 0}
+  .pc b{display:inline-block;min-width:34px}
+  .pro b{color:var(--pro)}.con b{color:var(--con)}
+  .foot{padding:12px 16px;border-top:1px solid var(--line)}
+  .foot a{display:inline-block;text-decoration:none;background:#1f6fae;color:#fff;font-weight:600;
+    font-size:.84rem;padding:8px 14px;border-radius:8px}
+  .foot a:hover{background:#155a91}
+  .note{font-size:.78rem;color:var(--sub);margin-top:8px}
+  .best{position:absolute;top:14px;right:56px;font-size:.68rem;background:#fce8c8;color:#8a5b12;
+    padding:2px 7px;border-radius:6px;font-weight:700}
+  footer{color:var(--sub);font-size:.8rem;text-align:center;padding:24px 16px 40px}
+  @media(max-width:520px){.grid{grid-template-columns:1fr}header h1{font-size:1.25rem}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>北海道跨年住宿比較</h1>
+    <p>入住 2027/1/3 – 退房 1/5（2 晚）・5 人・3 間以上臥室・可停車</p>
+    <p>共 16 間候選，皆在 30,000 TWD 以內；價格為 2 晚總價，每人每晚 = 總價 ÷ 10</p>
+    <div class="legend">
+      <span class="chip c-biei">美瑛</span>
+      <span class="chip c-naka">中富良野</span>
+      <span class="chip c-furano">富良野</span>
+      <span class="chip c-asa">旭川</span>
+      <span class="chip c-tok">十勝／帶廣</span>
+    </div>
+  </div>
+</header>
+<main class="wrap">
+<div id="app"></div>
+</main>
+<footer>資料整理自 Airbnb／Booking.com（2026/7 查詢，價格與空房以官網即時為準）。點各卡片「查看房源」前往原始頁面。</footer>
+
+<script>
+const data=[
+{code:"A",region:"美瑛",cls:"biei",name:"AOI Villa Biei",plat:"Airbnb",total:13404,rate:"全新·尚無評價",best:"3衛浴",
+ facts:["4房11床","衛浴 3","免費停車2+","距美瑛站車程5分"],
+ layout:"主臥：1雙人床\n臥2：3單人床\n臥3：雙層床+2半雙人\n臥4：3日式床墊（共11床）",
+ style:"全新建築獨棟、現代簡約",
+ pro:"全新建築；空間大；★難得3間衛浴；免費停車2輛以上；距美瑛站5分、旭川機場15分",
+ con:"全新無住客評價；美瑛北町非市中心需開車；無熨斗",
+ note:"房東折扣後 13,404（原 16,954）；1/2 前可免費取消",
+ url:"https://www.airbnb.com.tw/rooms/1703370779072262501"},
+
+{code:"B",region:"美瑛",cls:"biei",name:"Condominium Biei Nakamachi",plat:"Booking",total:20899,rate:"9.7 / 10（12則）",
+ facts:["5房","衛浴 1","館內免費停車","近美瑛中町市區"],
+ layout:"臥1~5：各1單人床+1日式床墊（共5單床+5床墊）",
+ style:"全新裝潢、現代和洋混合",
+ pro:"評分9.7極高、設備全新；房東親切備翻譯；近市區；5房可分房睡",
+ con:"★僅1衛浴、人多需排隊洗澡；標示50㎡偏小；需另付住宿稅",
+ note:"2026/12/29 前可免費取消",
+ url:"https://www.booking.com/hotel/jp/condominium-biei-nakamachi-vacation-stay-48311v.zh-tw.html"},
+
+{code:"C",region:"美瑛",cls:"biei",name:"Biei Central Villa – Green Garden",plat:"Booking",total:18202,rate:"9.5 / 10（111則）",best:"口碑最佳",
+ facts:["3房","衛浴 1","館內免費停車","步行5分到站"],
+ layout:"臥1：雙人床\n臥2：2單人床\n臥3：2日式床墊\n客廳：沙發床",
+ style:"童話小木屋、文青風、有前後院",
+ pro:"★口碑最佳(9.5/111則,位置9.8)；步行5分到美瑛站；設備極齊全；Genius再10%折扣；可免費取消",
+ con:"★僅1衛浴且狹小(多則評論轉身困難)；2樓床翻身有聲；夏季蟲多(冬季無虞)",
+ note:"免費取消價 18,202；不可退款 Genius 價約 17,292",
+ url:"https://www.booking.com/hotel/jp/biei-urban-villa.zh-tw.html"},
+
+{code:"D",region:"美瑛",cls:"biei",name:"Biei Central Villa 2 – Olive House",plat:"Booking",total:20225,rate:"10 / 10（1則）",best:"按摩浴池",
+ facts:["3房 90㎡","衛浴 1","館內免費停車","平層無樓梯"],
+ layout:"臥1：雙人床\n臥2：2單人床\n臥3：2單人床",
+ style:"現代Villa、附熱水按摩池、平層",
+ pro:"★附熱水按摩池(冬天泡湯)；平層無樓梯；隔音佳；與Green Garden同房東；可免費取消",
+ con:"僅1衛浴；評論僅1則(新房源)",
+ note:"2026/12/29 前可免費取消；不退款價 19,273",
+ url:"https://www.booking.com/hotel/jp/biei-central-villa-2.zh-tw.html"},
+
+{code:"E",region:"美瑛",cls:"biei",name:"ヴァンテアン舎 (vingt et un house)",plat:"Booking",total:16735,rate:"9.4 / 10（58則）",
+ facts:["3房 99㎡","衛浴 1","館外免費公共停車","步行1分到JR"],
+ layout:"臥1：2雙人床\n臥2：2雙人床\n臥3：2雙人床",
+ style:"現代和風、無窗簾(霧面玻璃)、位咖哩店樓上",
+ pro:"★距JR美瑛站步行1分最近；99㎡寬敞；價格美瑛區次低；評分9.4",
+ con:"★位咖哩店(Amadeus)樓上、需從店面共用入口進出、公共區有咖哩味；和室隔門且無窗簾；僅簡易廚房不可炒/炸/烤；僅1衛浴；上2樓樓梯；不可退款",
+ note:"★你標註的：房間僅和室隔門、要從餐廳走進去；不可退款",
+ url:"https://www.booking.com/hotel/jp/vuanteanyadoru-vingt-et-un-house.zh-tw.html"},
+
+{code:"F",region:"美瑛",cls:"biei",name:"CABIN BUILD Sakura",plat:"Booking",total:17586,rate:"尚無評價(新)",
+ facts:["3房 80㎡","衛浴 1","館內免費停車","安靜街道"],
+ layout:"臥1：2單人床\n臥2：3日式床墊\n臥3：2日式床墊",
+ style:"簡約溫馨小屋、和室、面安靜街道",
+ pro:"設備齊全含咖啡機/烘衣機/烤箱；安靜街道；可免費取消",
+ con:"全新尚無評價；僅1衛浴；床鋪多為榻榻米床墊",
+ note:"2027/1/2 前可免費取消",
+ url:"https://www.booking.com/hotel/jp/cabin-build-sakura-guang-yi-xuan-jia-dai-qie-sinpurudenuan-kaisu.zh-tw.html"},
+
+{code:"G",region:"美瑛",cls:"biei",name:"ノースメゾン biei 大町",plat:"Booking",total:16656,rate:"8.9 / 10（13則）",best:"最大172㎡",
+ facts:["4房 172㎡","衛浴 1.5","3車位","步行10分到站"],
+ layout:"臥1~4：各1雙人床（Serta床墊）",
+ style:"寬敞(原多戶住宅改建)、和洋混合",
+ pro:"★172㎡最大、適合兩家庭；4房各1雙人床；2馬桶較不用排隊；2個廚房；3車位",
+ con:"僅1浴缸/洗澡處；樓梯陡上2樓；廚房無油鹽需自備；不可退款；冬季車位可能剩1-2",
+ note:"與 E 同房東(Miki)；不可退款",
+ url:"https://www.booking.com/hotel/jp/zui-da-8ming-ok-mei-ying-ting-zhong-xin-bu-noyi-dong-dai-si-guan-guang-ju-dian-n.zh-tw.html"},
+
+{code:"H",region:"美瑛",cls:"biei",name:"Sol Stay Biei",plat:"Booking",total:17100,rate:"9.0 / 10（2則）",
+ facts:["4房 100㎡","衛浴 1","館內免費停車","步行6分到站"],
+ layout:"臥1：2單人床\n臥2：2日式床墊\n臥3：2單人床\n臥4：2雙人床",
+ style:"新穎寬敞、木質、和洋、有洗碗機",
+ pro:"4房100㎡新穎寬敞；步行6分到美瑛站；設備新有洗碗機；可攜寵物；可免費取消；近白金青池20分",
+ con:"僅1衛浴；評論僅2則(新)；住宅區夜間需降低音量",
+ note:"2026/12/20 前可免費取消；不退款價 15,529",
+ url:"https://www.booking.com/hotel/jp/sol-stay-6min-jr-ski-retreat-free-parking.zh-tw.html"},
+
+{code:"I",region:"中富良野",cls:"naka",name:"FIKA – Komorebi",plat:"Booking",total:22803,rate:"8.8 / 10（41則）",
+ facts:["3房 120㎡","衛浴 1","免費停車+接駁","農場旁"],
+ layout:"臥1：2雙人床\n臥2：2日式床墊\n臥3：1單人+1雙人床",
+ style:"農場旁獨棟、溫馨自然、和室",
+ pro:"120㎡整棟；免費停車+免費接駁；農場旁自然安靜；備BB床/玩具",
+ con:"位田中農場較偏遠必須開車；★僅1衛浴(評論希望多一間)；枕頭偏硬；不可退款；另收住宿稅300日圓/人/晚",
+ note:"車程7分到中富良野站、富良野市區13分",
+ url:"https://www.booking.com/hotel/jp/fika-komorebi.zh-tw.html"},
+
+{code:"J",region:"富良野",cls:"furano",name:"Kazevilla Furano",plat:"Airbnb",total:29691,rate:"4.75（12則）",best:"8車位",
+ facts:["4房7床","衛浴 1.5","免費停車8輛","步行9分到JR"],
+ layout:"臥1：2半雙人床\n臥2：1半雙人床\n臥3：2半雙人床\n臥4：2日式床墊",
+ style:"獨棟住宅、團體取向",
+ pro:"富良野市中心步行9分到JR/5分到市場；★8個車位充足；有烘衣機；步行可達餐廳超市",
+ con:"僅1間洗澡浴室(評論希望2浴室)；總價近上限29,691",
+ note:"1浴缸+2廁所(各層1)；24小時內可免費取消",
+ url:"https://www.airbnb.com.tw/rooms/1530367014916409255"},
+
+{code:"K",region:"富良野",cls:"furano",name:"Nordic House",plat:"Airbnb",total:23634,rate:"4.58（24則）",
+ facts:["3房6床","衛浴 1","館內免費停車","步行8分到站"],
+ layout:"臥1：半雙人床\n臥2：2日式床墊\n臥3：半雙人床\n客廳：2沙發床",
+ style:"北歐風獨棟別墅",
+ pro:"超讚房東；北歐風獨棟；距富良野站步行8分；一氧化碳/煙霧警報器齊全",
+ con:"僅1衛浴；評分4.58較低(停車/衛浴/安靜分數偏低)",
+ note:"24小時內可免費取消",
+ url:"https://www.airbnb.com.tw/rooms/1205900388890821503"},
+
+{code:"L",region:"富良野",cls:"furano",name:"富良野 4LDK 獨棟 (Yuki Kitayama)",plat:"Airbnb",total:29493,rate:"4.74（19則）",
+ facts:["4房6床","衛浴 1","免費停車1輛","步行8分到站"],
+ layout:"4間臥室：4雙人床\n＋2日式床墊",
+ style:"現代簡約獨棟",
+ pro:"超讚房東(10年/6465則)；4房現代簡約；步行8分到富良野站；有烘衣機/嬰兒床；近薰衣草",
+ con:"僅1衛浴；★免費停車僅1輛(多車不便)；房規多罰則細；總價近上限29,493",
+ note:"房規嚴、需提供旅客資料",
+ url:"https://www.airbnb.com.tw/rooms/1400443290359044226"},
+
+{code:"M",region:"富良野",cls:"furano",name:"RONIN LODGE 自然小屋",plat:"Airbnb",total:29889,rate:"4.78（37則）",
+ facts:["3房5床","衛浴 1","免費停車2輛","近學田站3分"],
+ layout:"臥1：2單人床\n臥2：2單人床\n臥3：1雙人床",
+ style:"自然小屋、有桌遊/飛鏢",
+ pro:"超讚房東；評分4.78佳；近JR學田站車程3分；停車2輛；親子友善",
+ con:"★臥室皆無暖氣/冷氣(僅客廳有空調+煤油爐)、冬季睡眠偏冷；僅1衛浴；總價近上限29,889；郊區需開車",
+ note:"自助入住",
+ url:"https://www.airbnb.com.tw/rooms/1172812555777122243"},
+
+{code:"N",region:"旭川",cls:"asa",name:"旭町之家",plat:"Airbnb",total:20685,rate:"4.9（20則）· 旅客精選",best:"評分4.9",
+ facts:["4房7床","衛浴 1.5","免費停車2輛","距旭川站15分"],
+ layout:"臥1：2半雙人床\n臥2：1半雙人床\n臥3：2半雙人床\n臥4：2單人床",
+ style:"大型獨棟、全房床鋪",
+ pro:"★評分4.9極高+旅客精選；4房7床1.5衛浴；超讚房東；停車2輛；近永旺Mall車程4分",
+ con:"位旭川(距富良野滑雪場約80分、美瑛景點需開車)；距旭川站車程15分較遠",
+ note:"自助入住",
+ url:"https://www.airbnb.com.tw/rooms/1537531338141872642"},
+
+{code:"O",region:"旭川",cls:"asa",name:"旭川 3 樓公寓 (Hinoeuma)",plat:"Airbnb",total:18926,rate:"4.72（78則）",
+ facts:["3房8床","衛浴 1","免費停車1輛","距旭川站8分"],
+ layout:"臥1：3單人床\n臥2：2單人床\n臥3：2單人床\n客廳：1日式床墊",
+ style:"明亮公寓(3樓)、山景",
+ pro:"3房8床空間大有山景；近旭川站車程8分/機場25分；適合以旭川為據點遊富良野美瑛；設備齊全",
+ con:"★免費停車僅1輛(多車不便)；3樓無電梯需爬樓梯；位旭川離美瑛/富良野較遠",
+ note:"自助入住",
+ url:"https://www.airbnb.com.tw/rooms/1190290694613857455"},
+
+{code:"P",region:"十勝／帶廣",cls:"tok",name:"Komaba Lodge (駒場)",plat:"Airbnb",total:11085,rate:"4.84（390則）· 旅客精選",best:"最便宜",
+ facts:["4房8床","衛浴 1","免費停車","有壁爐"],
+ layout:"臥1~4：各2單人床（共8單人床）",
+ style:"溫馨木屋、有壁爐、十勝田園",
+ pro:"★總價最低11,085；評分4.84+旅客精選(390則)；溫馨木屋有壁爐；十勝田園夜景星空；適合大團體",
+ con:"★位十勝音更町距美瑛/富良野極遠(車程約2.5小時+)、與此行程動線不合；僅1衛浴；冬季不可生火",
+ note:"與跨年美瑛/富良野路線距離遠",
+ url:"https://www.airbnb.com.tw/rooms/35237849"},
+];
+
+const imgs={
+ A:"https://a0.muscache.com/im/pictures/hosting/Hosting-1703370779072262501/original/d5531903-3b9f-4d69-a775-c72b425d9694.jpeg?im_w=720",
+ B:"https://r-xx.bstatic.com/xdata/images/hotel/608x352/574489400.webp",
+ C:"https://q-xx.bstatic.com/xdata/images/hotel/608x352/486999398.webp",
+ D:"https://r-xx.bstatic.com/xdata/images/hotel/608x352/888813040.webp",
+ E:"https://q-xx.bstatic.com/xdata/images/hotel/608x352/595295393.webp",
+ F:"https://r-xx.bstatic.com/xdata/images/hotel/608x352/847218088.webp",
+ G:"https://r-xx.bstatic.com/xdata/images/hotel/608x352/488637113.webp",
+ H:"https://r-xx.bstatic.com/xdata/images/hotel/608x352/849901295.webp",
+ I:"https://q-xx.bstatic.com/xdata/images/hotel/608x352/857864519.webp",
+ J:"https://a0.muscache.com/im/pictures/hosting/Hosting-1530367014916409255/original/b61aee50-d6a3-4905-ba8c-80a92d8cebae.jpeg?im_w=720",
+ K:"https://a0.muscache.com/im/pictures/miso/Hosting-1205900388890821503/original/0dbbe651-e352-4339-a87d-30769c0e54a0.jpeg?im_w=720",
+ L:"https://a0.muscache.com/im/pictures/miso/Hosting-1400443290359044226/original/bf6cd07d-b2d7-467d-9e56-d0ba5bd3cec0.jpeg?im_w=720",
+ M:"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3MjgxMjU1NTc3NzEyMjI0Mw%3D%3D/original/04eb9aea-9ec5-4b95-a2d9-401436b3c25d.jpeg?im_w=720",
+ N:"https://a0.muscache.com/im/pictures/hosting/Hosting-1537531338141872642/original/9a5708ef-7151-4d91-a989-2ba381f0fd66.jpeg?im_w=720",
+ O:"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE5MDI5MDY5NDYxMzg1NzQ1NQ%3D%3D/original/34b3b71a-c5d7-4ee2-bd37-83108a4f9bc2.jpeg?im_w=720",
+ P:"https://a0.muscache.com/im/pictures/miso/Hosting-35237849/original/ab46cdac-aca5-4962-88a0-c5bd6befe207.jpeg?im_w=720"
+};
+/* Booking.com 圖片改為內嵌，避免外連失效 */
+imgs.B="data:image/jpeg;base64,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";
+imgs.C="data:image/jpeg;base64,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";
+imgs.D="__DATA_D__";
+imgs.E="__DATA_E__";
+imgs.F="__DATA_F__";
+imgs.G="__DATA_G__";
+imgs.H="__DATA_H__";
+imgs.I="__DATA_I__";
+["B","C","D","E","F","G","H","I"].forEach(k=>{imgs[k]="photos/"+k+".jpg";});
+const regionMeta={"美瑛":"biei","中富良野":"naka","富良野":"furano","旭川":"asa","十勝／帶廣":"tok"};
+const fmt=n=>"$"+n.toLocaleString();
+const app=document.getElementById("app");
+const order=["美瑛","中富良野","富良野","旭川","十勝／帶廣"];
+order.forEach(reg=>{
+  const items=data.filter(d=>d.region===reg);
+  if(!items.length)return;
+  const cls=regionMeta[reg];
+  const h=document.createElement("div");
+  h.className="region-title";
+  h.innerHTML=`<span class="bar" style="background:var(--${cls})"></span>${reg}<span style="font-weight:400;color:var(--sub);font-size:.9rem">（${items.length} 間）</span>`;
+  app.appendChild(h);
+  const grid=document.createElement("div");grid.className="grid";
+  items.forEach(d=>{
+    const pp=Math.round(d.total/10);
+    const card=document.createElement("div");card.className="card";
+    card.innerHTML=`
+      <div class="thumbwrap" style="--rc:var(--${d.cls})">
+        <div class="ph"><span class="ph-code">${d.code}</span><span class="ph-label">${d.plat}</span></div>
+        ${imgs[d.code]?`<img class="thumb" src="${imgs[d.code]}" alt="${d.name}" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'">`:''}
+      </div>
+      <div class="top">
+        <div class="code" style="background:var(--${d.cls})">${d.code}</div>
+        ${d.best?`<div class="best">${d.best}</div>`:""}
+        <div class="name">${d.name}</div>
+        <span class="plat">${d.plat}</span>
+        <div class="price">${fmt(d.total)} <small>/2晚</small></div>
+        <div class="pp">每人每晚 約 ${fmt(pp)}</div>
+        <div class="rate">★ ${d.rate}</div>
+      </div>
+      <div class="body">
+        <div class="facts">${d.facts.map(f=>`<span class="fact">${f}</span>`).join("")}</div>
+        <div class="layout">${d.layout}</div>
+        <div style="font-size:.8rem;color:var(--sub);margin-bottom:8px">風格：${d.style}</div>
+        <div class="pc pro"><b>優點</b> ${d.pro}</div>
+        <div class="pc con"><b>缺點</b> ${d.con}</div>
+      </div>
+      <div class="foot">
+        <a href="${d.url}" target="_blank" rel="noopener">查看房源 →</a>
+        <div class="note">${d.note}</div>
+      </div>`;
+    grid.appendChild(card);
+  });
+  app.appendChild(grid);
+});
+</script>
+</body>
+</html>
