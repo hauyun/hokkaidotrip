@@ -1,0 +1,15 @@
+請把 Booking.com 這 8 間的截圖放到這個 photos 資料夾，並改成以下檔名（副檔名用 .jpg）：
+
+B.jpg  → Condominium Biei Nakamachi
+C.jpg  → Biei Central Villa – Green Garden
+D.jpg  → Biei Central Villa 2 – Olive House
+E.jpg  → ヴァンテアン舎 (vingt et un house)
+F.jpg  → CABIN BUILD Sakura
+G.jpg  → ノースメゾン biei 大町
+H.jpg  → Sol Stay Biei
+I.jpg  → FIKA – Komorebi
+
+放好之後，打開上一層的「北海道住宿比較 - 複製.html」，Booking 的照片就會顯示了。
+（若某張還沒放，該卡片會自動顯示彩色代號卡，不會破圖。）
+
+分享給朋友時，記得整個資料夾一起分享（HTML + photos 一起），照片才會跟著顯示。
